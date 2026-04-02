@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -62,13 +61,6 @@ export default function Home() {
               rel="noopener noreferrer"
               className="flex h-12 w-full sm:w-[160px] items-center justify-center gap-2 rounded-xl bg-white/5 border border-white/10 text-[15px] transition-all hover:bg-white/10 hover:border-white/20"
             >
-              <Image
-                src="/next.svg"
-                alt="Next.js"
-                width={16}
-                height={16}
-                className="dark:invert opacity-70"
-              />
               Documentation
             </a>
           </div>
